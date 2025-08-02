@@ -1,0 +1,93 @@
+Class 31 @Loop -next
+====================
+1. for loop
+2. for each loop  ----> design for array
+3. while loop
+4. do while loop
+===================
+1. for loop
+
+let marks = [56, 61, 90, 30, 58, 99];
+
+for(let i=0; i<=5; i++){
+    console.log(marks[i]);
+}
+====================
+2. for each loop
+
+let array = [34, 45, 665, 87];  
+array.forEach((element)=>{
+    //statement
+})
+
+
+
+===============================
+While Loop
+
+let i=0; 
+while(i<=5){
+    //statement........
+
+    increment/decrement
+}
+
+// while loop
+
+// let i = 0;
+// while( i <= 5){
+//     // statement
+
+//     // increament/decrement
+// }
+
+let apple = [56, 61, 90, 30, 58, 99];
+
+let i = 0;
+
+while( i <= 5){
+    console.log(apple[i]);
+    i++;
+}
+
+let j = 0;
+while( j <= 9){
+    console.log("Hello World")
+    j++;
+}
+
+=============
+
+// Do while loop
+
+let z = 6;
+do{
+    // statement
+    // increament/decrement
+}
+
+while( z <= 5);
+
+
+
+let orange= [56, 61, 90, 30, 58, 98];
+
+let k = 0;
+
+do{
+    console.log(orange[k]);
+    k++;
+}
+
+while( k <= 5);
+
+let l =11;
+
+do{
+    console.log("Hello World");
+    l++;
+}
+
+while( l <= 10);
+
+===============================
